@@ -1,9 +1,10 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 <style>
-body {
-  font-family: "Lato", sans-serif;
+html {
+  font-family: "Nunito", light;
 }
 
 .sidenav {
@@ -21,7 +22,7 @@ body {
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 18px;
   color: #818181;
   display: block;
 }
@@ -30,16 +31,24 @@ body {
   color: #f1f1f1;
 }
   
-#pfp {
-  margin-left="10px"
-  height="150px"
-  width="150px"
+.pfp {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+#title {
+  display: block;
+  font-size: 22px;
+  color: #f1f1f1;
+  margin-left: 15px;
 }
 
 .main {
   margin-left: 175px; /* Same as the width of the sidenav */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 15px;
 }
 
 @media screen and (max-height: 450px) {
@@ -51,21 +60,27 @@ body {
 <body>
 
 <div class="sidenav">
-  <img id="pfp" src="pfp.jpg">
-  <a href="#about">About</a>
-  <a href="#services">Services</a>
-  <a href="#clients">Clients</a>
+  <img class="pfp" src="pfp.jpg">
+  <p id="title">Adrian's Page</p>
+  <a href="#intro">Introduction</a>
+  <a href="#blog">Blog</a>
+  <a href="#clients">Projects</a>
   <a href="#contact">Contact</a>
 </div>
 
 <div class="main">
-  <h2>Sidebar</h2>
-  <p>This sidebar is of full height (100%) and always shown.</p>
-  <p>Scroll down the page to see the result.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <h2>Introduction</h2>
+  <p>Hello and thanks for visiting!  On this site, you'll get a peek into the inner workings and thought processes of an up-and-coming developer.</p>
+  <p>If you're a recruiter looking for my CV, please click the "Resume/CV" link on the left sidebar.</p>
+  <h4>About Me</h4>
+  <p>My name is Adrian.  I'm 29 years old and currently live in Boston, MA.  I'm an up-and-coming developer with passion for learning and hard work.</p>
+  <p>Not only can I code in Java, C, and Python, I also understand the absolutely wonderful relationship between programming and mathematical logic & proof.  Both of these skill-sets have assisted me greatly in my academic and personal growth.  Additionally, my time in both fields even helped prepare me for my sociology coursework.  Not only did I learn how to apply statistics to large data sets, I was even able to carry out an entire research project!</p>
+  <p>(If you're curious about the research project I did, visit the "Projects" page.)</p>
+  <h4>Skills</h4>
+  <p>will list skills here, i have skill issue atm lmao</p>
+  <h4>Passions & Interests</h4>
+<p>I am a strong advocate for human rights, mental health, and the environment. I ultimately want to do my part to create a more fair, just world for us all -- one person and movement at a time.</p>
+  <p>If you count having pets as a passion and/or interest, I have two furry cat children whom I love very much: Lilo and Stitch.  They've been with me since the pandemic began and are probably the best friends I could ever ask for.  They get all the love, cuddles, and scritches very often.  Meow.</p>
 </div>
    
 </body>
